@@ -16,12 +16,8 @@
   "homepage": "http://localhost:3000/checkout",
   "proxy": "http://localhost:4242",
   "scripts": {
-    "start-client": "react-scripts start",
-    "start-server": "node server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "concurrently \"yarn start-client\" \"yarn start-server\""
+    "test" : "echo \"error: no test specified\"",
+    "start": "node http-server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
